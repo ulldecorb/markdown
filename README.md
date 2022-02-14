@@ -10,6 +10,7 @@ Markdown style cheatsheet
     * [Coded](#coded)
 * [Escape Special Characters](#escape)
 * [Links](#links)
+* [Images](#images)
 * [Tools](#tools)
 * [Sources](#sources)
 
@@ -82,10 +83,17 @@ ___
 <!-- Block quote -->
 > this is a block
 
+##[Links](#links)
 <!--  links -->
-[This is a link](inserlink.com)
 
-[This is a link with tooltip](inserlink.com "tooltip")
+>\[This is a link to React]\(https://reactjs.org/docs/getting-started.html)   
+
+[This is a link to React](https://reactjs.org/docs/getting-started.html)
+
+>\[This is the same link with tooltip]\(https://reactjs.org/docs/getting-started.html "Click to go reactjs.org")   
+
+[This is the same link with tooltip](https://reactjs.org/docs/getting-started.html "Click to go reactjs.org")
+
 ### Unordered List
 <!-- Unordered List -->
 * item1
@@ -103,25 +111,24 @@ ___
 Escape specials characters in markdown using backlash \( \ )
 
 ## Tools
-Escape specials characters in markdown using backlash \( \ ):
+### Escape specials characters in markdown using backlash \( \ ):
 >\&#60;  
 &#60;   
 
 >\\\&#60;  
 \&#60;   
 
+### Extension to markdown files preview on VSC:
+>[Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview)   
 
+### Comments on .md files are like .html files:   
+>\<!-- text \-->
 
-
-Extension to markdown files preview on VSC:
->Auto-Open Markdown Preview   
-
-Comments on VSC \(Windows OS spanish qwerty keyboard):
+### Shortcut comments on VSC \(Windows OS spanish qwerty keyboard):
 > Ctrl + ç
 
-
-<!--Images-->
-### Images
+## Images
+>\!\[H. P. Lovecraft]\(https://upload.wikimedia.org/wikipedia/commons/1/10/H._P._Lovecraft%2C_June_1934.jpg?20171011092735 "H. P. Lovecraft")   
 ![H. P. Lovecraft](https://upload.wikimedia.org/wikipedia/commons/1/10/H._P._Lovecraft%2C_June_1934.jpg?20171011092735 "H. P. Lovecraft")
 
 
