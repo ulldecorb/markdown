@@ -8,11 +8,12 @@ Markdown style cheatsheet
     * [bold](#bold)
     * [Strike Through](#strike-through)
     * [Coded](#coded)
-* [Paragraph Style](#paragraph-style)   
+* [Paragraph style](#paragraph-style)   
    * [Ordered List](#ordered-list)
    * [Unordered List](#unordered-list)
+   * [Horizontal Line](#horizontal-line)
    * [Block Quote](#block-quote)
-   * [Inline Code Block](#inline-code-block)
+   * [Task List](#task-list)
 * [Links](#links)
       * [External Links](#external-links)
       * [Internal Links](#internal-links)
@@ -57,8 +58,11 @@ _italic_
 ~~strike~~
 
 ### Coded
+On GitHub .md files can create blocks for text code. Copy text click function is added by default.
 
-On GitHub md files:
+Basic inline code block
+>\`<p></p>`   
+>`<p></p>`
 
 Bash script block
 >\```bash  
@@ -86,27 +90,11 @@ print("Hello World")
 print("Hello World")
 ```
 
-## Links
-### External Links
->\[This is a link to React]\(https://reactjs.org/docs/getting-started.html)   
-
-[This is a link to React](https://reactjs.org/docs/getting-started.html)
-
->\[This is the same link with tooltip]\(https://reactjs.org/docs/getting-started.html "Click to go reactjs.org")   
-
-[This is the same link with tooltip](https://reactjs.org/docs/getting-started.html "Click to go reactjs.org")
-
-### Internal Links 
-You can browse for the headings of your document from a [Table of Content](#table-of-content)   
->\[Go to Table of Content]\(#table-of-content)
-[Go to List of Content](#table-of-content)
-
+## Paragraph Style
 ### Unordered List
-<!-- Unordered List -->
 * item1
     * item2
 
-<!--Ordered List-->
 ### Ordered List
 1. first item
 2. second item   
@@ -123,14 +111,25 @@ ___
 > this is a block
 
 ### Task List
->\* \[x] done
+>\* \[x] done   
 \* \[ ] not done   
 * [x] done
 * [ ] not done   
 
-### Inline Code Block
-<!-- inline code block-->
-`<p></p>`
+## Links
+### External Links
+>\[This is a link to React]\(https://reactjs.org/docs/getting-started.html)   
+
+[This is a link to React](https://reactjs.org/docs/getting-started.html)
+
+>\[This is the same link with tooltip]\(https://reactjs.org/docs/getting-started.html "Click to go reactjs.org")   
+
+[This is the same link with tooltip](https://reactjs.org/docs/getting-started.html "Click to go reactjs.org")
+
+### Internal Links 
+You can browse for the headings of your document from a [Table of Content](#table-of-content)   
+>\[Go to Table of Content]\(#table-of-content)
+[Go to List of Content](#table-of-content)
 
 ## Tools
 ### Special Characters
