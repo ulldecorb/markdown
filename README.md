@@ -147,7 +147,7 @@ Add images on markdown is like create a link, but with a "!" before.
 
 ## Tools
 ### Special Characters
-See how write special characters like "\&#60;" [here](https://www.whatsmyip.org/html-characters/).   
+See how write special characters like "&lt;&gt;" [here](https://www.whatsmyip.org/html-characters/).   
 ### Escape Special Characters
 Escape specials characters in markdown using backlash \( \ )
 >\&#60;  
