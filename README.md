@@ -15,18 +15,17 @@ Markdown style cheatsheet
    * [Block Quote](#block-quote)
    * [Task List](#task-list)
 * [Links](#links)   
-      * [External Links](#external-links)   
-      * [Internal Links](#internal-links)   
+   * [External Links](#external-links)   
+   * [Internal Links](#internal-links)   
 * [Images](#images)
 * [Tools](#tools)
    * [Special characters](#special-characters)
-   * [Escape specials characters](#escape-specials-characters)
+   * [Escape specials characters](#escape-special-characters)
    * [Comments](#comments)
    * [VSC Markdown Preview](#vsc-markdown-preview)
 * [Sources](#sources)
 
 ## Heading
-
 >\# heading 1   
 # heading 1
 >\#\# heading 2
@@ -58,10 +57,11 @@ _italic_
 ~~strike~~
 
 ### Coded
-On GitHub .md files can create blocks for text code. Copy text click function is added by default.
+On GitHub .md files can create blocks for text code.    
+Copy text click function is added by default.
 
 Basic inline code block
->\`<p></p>`   
+>\`\<p\>\</p\>\`   
 >`<p></p>`
 
 Bash script block
@@ -92,10 +92,16 @@ print("Hello World")
 
 ## Paragraph Style
 ### Unordered List
-* item1
+>\* item1   
+    \* item2   
+
+* item1   
     * item2
 
 ### Ordered List
+>\1. first item   
+\2. second item   
+
 1. first item
 2. second item   
 
@@ -111,8 +117,9 @@ ___
 > this is a block
 
 ### Task List
->\* \[x] done   
-\* \[ ] not done   
+>\* \[x\] done   
+\* \[ \] not done
+
 * [x] done
 * [ ] not done   
 
@@ -130,6 +137,13 @@ ___
 You can browse for the headings of your document from a [Table of Content](#table-of-content)   
 >\[Go to Table of Content]\(#table-of-content)
 [Go to List of Content](#table-of-content)
+
+
+## Images
+Add images on markdown is like create a link, but with a "!" before.
+>\!\[H. P. Lovecraft]\(https://upload.wikimedia.org/wikipedia/commons/1/10/H._P._Lovecraft%2C_June_1934.jpg?20171011092735 "H. P. Lovecraft")   
+   
+![H. P. Lovecraft](https://upload.wikimedia.org/wikipedia/commons/1/10/H._P._Lovecraft%2C_June_1934.jpg?20171011092735 "H. P. Lovecraft")
 
 ## Tools
 ### Special Characters
@@ -161,12 +175,49 @@ Mac OS
 #### VSC Extension to markdown files preview:
 >[Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview)   
 
+# Sources
+This cheat sheet are based on the excellent job found on the follow sites:
+- Zaire Hira's article [Markdown Cheat Sheet – How to Write in Markdown with Examples](https://www.freecodecamp.org/news/markdown-cheat-sheet/) on freeCodeCamp news.
+- [Markdownguide.org web](https://www.markdownguide.org/cheat-sheet/)
+- Rita Łyczywek's article [How to write a good README for your GitHub project?](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 
+<!-- ### Table
 
-## Images
-Add images on markdown is like create a link, but with a "!" before.
->\!\[H. P. Lovecraft]\(https://upload.wikimedia.org/wikipedia/commons/1/10/H._P._Lovecraft%2C_June_1934.jpg?20171011092735 "H. P. Lovecraft")   
-   
-![H. P. Lovecraft](https://upload.wikimedia.org/wikipedia/commons/1/10/H._P._Lovecraft%2C_June_1934.jpg?20171011092735 "H. P. Lovecraft")
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+### Footnote
+
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
+
+### Heading ID
+
+### My Great Heading {#custom-id}
+
+### Definition List
+
+term
+: definition
+### Emoji
+
+That is so funny! :joy:
+
+(See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
+
+### Highlight
+
+I need to highlight these ==very important words==.
+
+### Subscript
+
+H~2~O
+
+### Superscript
+
+X^2^ -->
 
