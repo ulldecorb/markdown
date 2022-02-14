@@ -12,6 +12,9 @@ Markdown style cheatsheet
 * [Links](#links)
 * [Images](#images)
 * [Tools](#tools)
+   * [Special characters](#special-characters)
+   * [Escape specials characters](#escape-specials-characters)
+   * []()
 * [Sources](#sources)
 
 ## Heading
@@ -80,12 +83,12 @@ print("Hello World")
 --- 
 ___
 
-<!-- Block quote -->
+### Block quote
+\> this is a block
 > this is a block
 
-##[Links](#links)
-<!--  links -->
-
+## Links
+### External Links
 >\[This is a link to React]\(https://reactjs.org/docs/getting-started.html)   
 
 [This is a link to React](https://reactjs.org/docs/getting-started.html)
@@ -93,6 +96,11 @@ ___
 >\[This is the same link with tooltip]\(https://reactjs.org/docs/getting-started.html "Click to go reactjs.org")   
 
 [This is the same link with tooltip](https://reactjs.org/docs/getting-started.html "Click to go reactjs.org")
+
+### Internal Links 
+You can browse for the headings of your document from a [Table of Content](#table-of-content)   
+>\[Go to Table of Content]\(#table-of-content)
+[Go to List of Content](#table-of-content)
 
 ### Unordered List
 <!-- Unordered List -->
@@ -107,31 +115,44 @@ ___
 <!-- inline code block-->
 `<p></p>`
 
-## Escape Special Characters
-Escape specials characters in markdown using backlash \( \ )
-
 ## Tools
-### Escape specials characters in markdown using backlash \( \ ):
+### Special Characters
+See how write special characters like "\&#60;" [here](https://www.whatsmyip.org/html-characters/).   
+### Escape Special Characters
+Escape specials characters in markdown using backlash \( \ )
 >\&#60;  
 &#60;   
 
 >\\\&#60;  
 \&#60;   
 
-### Extension to markdown files preview on VSC:
+### VSC Markdown Preview Shortcut:   
+Windows / Linux OS
+> Ctrl+K V
+
+Mac OS
+> ⌘+K V
+
+### VSC Extension to markdown files preview:
 >[Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview)   
 
 ### Comments on .md files are like .html files:   
 >\<!-- text \-->
 
-### Shortcut comments on VSC \(Windows OS spanish qwerty keyboard):
+### VSC Comments Shortcut:   
+Windows OS spanish qwerty keyboard
 > Ctrl + ç
 
 ## Images
+Add images on markdown is like create a link, but with a "!" before.
 >\!\[H. P. Lovecraft]\(https://upload.wikimedia.org/wikipedia/commons/1/10/H._P._Lovecraft%2C_June_1934.jpg?20171011092735 "H. P. Lovecraft")   
+   
 ![H. P. Lovecraft](https://upload.wikimedia.org/wikipedia/commons/1/10/H._P._Lovecraft%2C_June_1934.jpg?20171011092735 "H. P. Lovecraft")
 
 
-<!-- task list -->
+### Task List
+>\* \[x] done
+\* \[ ] not done   
+
 * [x] done
 * [ ] not done
