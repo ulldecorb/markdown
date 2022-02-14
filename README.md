@@ -8,13 +8,20 @@ Markdown style cheatsheet
     * [bold](#bold)
     * [Strike Through](#strike-through)
     * [Coded](#coded)
-* [Escape Special Characters](#escape)
+* [Paragraph Style](#paragraph-style)   
+   * [Ordered List](#ordered-list)
+   * [Unordered List](#unordered-list)
+   * [Block Quote](#block-quote)
+   * [Inline Code Block](#inline-code-block)
 * [Links](#links)
+      * [External Links](#external-links)
+      * [Internal Links](#internal-links)
 * [Images](#images)
 * [Tools](#tools)
    * [Special characters](#special-characters)
    * [Escape specials characters](#escape-specials-characters)
-   * []()
+   * [Comments](#comments)
+   * [VSC Markdown Preview](#vsc-markdown-preview)
 * [Sources](#sources)
 
 ## Heading
@@ -78,14 +85,6 @@ print("Hello World")
 ```python
 print("Hello World")
 ```
-<!-- Horizontal Line -->
-
---- 
-___
-
-### Block quote
-\> this is a block
-> this is a block
 
 ## Links
 ### External Links
@@ -110,7 +109,25 @@ You can browse for the headings of your document from a [Table of Content](#tabl
 <!--Ordered List-->
 ### Ordered List
 1. first item
-2. second item
+2. second item   
+
+### Horizontal Line
+>\---   
+--- 
+
+>\___   
+___
+
+### Block quote
+\> this is a block
+> this is a block
+
+### Task List
+>\* \[x] done
+\* \[ ] not done   
+* [x] done
+* [ ] not done   
+
 ### Inline Code Block
 <!-- inline code block-->
 `<p></p>`
@@ -126,22 +143,27 @@ Escape specials characters in markdown using backlash \( \ )
 >\\\&#60;  
 \&#60;   
 
-### VSC Markdown Preview Shortcut:   
+### Comments
+#### Comments on .md files are like .html files:   
+>\<!-- text \-->
+
+#### VSC Comments Shortcut:   
+Windows OS spanish qwerty keyboard
+> Ctrl + ç
+
+### VSC Markdown Preview
+#### Shortcut:    
 Windows / Linux OS
 > Ctrl+K V
 
 Mac OS
 > ⌘+K V
 
-### VSC Extension to markdown files preview:
+#### VSC Extension to markdown files preview:
 >[Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview)   
 
-### Comments on .md files are like .html files:   
->\<!-- text \-->
 
-### VSC Comments Shortcut:   
-Windows OS spanish qwerty keyboard
-> Ctrl + ç
+
 
 ## Images
 Add images on markdown is like create a link, but with a "!" before.
@@ -149,10 +171,3 @@ Add images on markdown is like create a link, but with a "!" before.
    
 ![H. P. Lovecraft](https://upload.wikimedia.org/wikipedia/commons/1/10/H._P._Lovecraft%2C_June_1934.jpg?20171011092735 "H. P. Lovecraft")
 
-
-### Task List
->\* \[x] done
-\* \[ ] not done   
-
-* [x] done
-* [ ] not done
